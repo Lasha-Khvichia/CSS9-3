@@ -222,7 +222,7 @@ main {
   line-height: 24px;
 }
 .form_wrapper select,
-.form_wrapper input {
+.form_wrapper input::placeholder {
   color: #7b7b7b;
   font-family: Inter;
   font-size: 16px;
@@ -230,6 +230,13 @@ main {
   outline: none;
   appearance: none;
   flex-grow: 1;
+}
+.form_wrapper input {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 .form_wrapper select {
   background-image: url(./images/selectArrow.svg);
